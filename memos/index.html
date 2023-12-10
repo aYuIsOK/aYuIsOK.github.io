@@ -59,7 +59,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-12-10 20:51:21',
+  postUpdate: '2023-12-10 21:48:21',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -472,7 +472,7 @@ iframe {
 </div>
 
 <div class="limit">- 只展示最近30条说说 -</div>
-<script src="/js/imgStatus.js"></script>
+
 <script>
 if (1) {
     let url = 'http://ayu.link:5230'
@@ -483,7 +483,7 @@ if (1) {
         data.forEach(item => { items.push(Format(item)) });
         if (items.length == 30) document.querySelector('.limit').style.display = 'block';
         items.forEach(item => {
-            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox nolazyload avatar" src="https://bu.dusays.com/2023/12/10/6575961420d93.jpg"><div class="info"><span class="talk_nick">aYu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div class="bber-reply" onclick="rm.rightMenuCommentText('${item.content.split('<')[0]}')"><i class="anzhiyufont anzhiyu-icon-message"></i></div></div></div>` // 注意修改头像链接和名称
+            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox nolazyload avatar" src="https://bu.dusays.com/2023/12/10/6575961420d93.jpg"><div class="info"><span class="talk_nick">aYu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div></div>` // 注意修改头像链接和名称
         })
         document.getElementById('talk').innerHTML = html
         waterfall('#talk')
