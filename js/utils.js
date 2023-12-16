@@ -844,18 +844,20 @@ const anzhiyu = {
     if (!window.location.pathname.startsWith("/music/")) {
       return;
     }
-    const urlParams = new URLSearchParams(window.location.search);
-    const userId = "8152976493";
-    const userServer = "netease";
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const userId = "8152976493";
+    // const userServer = "netease";
     const anMusicPageMeting = document.getElementById("anMusic-page-meting");
-    if (urlParams.get("id") && urlParams.get("server")) {
-      const id = urlParams.get("id");
-      const server = urlParams.get("server");
-      anMusicPageMeting.innerHTML = `<meting-js id="${id}" server=${server} type="playlist" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
-    } else {
-      anMusicPageMeting.innerHTML = `<meting-js id="${userId}" server="${userServer}" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
-    }
+    // if (urlParams.get("id") && urlParams.get("server")) {
+    //   const id = urlParams.get("id");
+    //   const server = urlParams.get("server");
+    //   anMusicPageMeting.innerHTML = `<meting-js id="${id}" server=${server} type="playlist" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
+    // } else {
+    //   anMusicPageMeting.innerHTML = `<meting-js id="${userId}" server="${userServer}" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
+    // }
+    anMusicPageMeting.innerHTML = `<meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
     anzhiyu.changeMusicBg(false);
+    // anzhiyu.changeMusicList();
   },
   //隐藏今日推荐
   hideTodayCard: function () {
@@ -956,7 +958,7 @@ const anzhiyu = {
     });
   },
   // 切换歌单
-  changeMusicList: async function () {
+  changeMusicList: function () {
     const anMusicPage = document.getElementById("anMusic-page");
     const metingAplayer = anMusicPage.querySelector("meting-js").aplayer;
     const currentTime = new Date().getTime();
@@ -973,8 +975,8 @@ const anzhiyu = {
         songs = cacheData.songs;
       } else {
         // 否则重新从服务器获取数据
-        const response = await fetch("/json/music.json");
-        songs = await response.json();
+        const response = fetch("/json/music.json");
+        songs = response.json();
         cacheData.timestamp = currentTime;
         cacheData.songs = songs;
         localStorage.setItem("musicData", JSON.stringify(cacheData));
