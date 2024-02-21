@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ayuisokay.com/memos/index.html</loc>
+    <loc>http://blog.ayuisokay.com/memos/index.html</loc>
     
     <lastmod>2024-02-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/10/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/10/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/11/JVM%E4%B9%8B%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/11/JVM%E4%B9%8B%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/13/JVM%E4%B9%8B%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/10/JUC%E4%B9%8B%E7%BA%BF%E7%A8%8B%E6%B1%A0/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/10/JUC%E4%B9%8B%E7%BA%BF%E7%A8%8B%E6%B1%A0/</loc>
     
     <lastmod>2023-12-13</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/static/owo.json</loc>
+    <loc>http://blog.ayuisokay.com/static/owo.json</loc>
     
     <lastmod>2023-12-10</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/privacy/index.html</loc>
+    <loc>http://blog.ayuisokay.com/privacy/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/cat/index.html</loc>
+    <loc>http://blog.ayuisokay.com/cat/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/about/index.html</loc>
+    <loc>http://blog.ayuisokay.com/about/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/tags/index.html</loc>
+    <loc>http://blog.ayuisokay.com/tags/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/categories/index.html</loc>
+    <loc>http://blog.ayuisokay.com/categories/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/air-conditioner/index.html</loc>
+    <loc>http://blog.ayuisokay.com/air-conditioner/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/copyright/index.html</loc>
+    <loc>http://blog.ayuisokay.com/copyright/index.html</loc>
     
     <lastmod>2023-12-09</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/2023/12/04/hello-world/</loc>
+    <loc>http://blog.ayuisokay.com/2023/12/04/hello-world/</loc>
     
     <lastmod>2023-12-04</lastmod>
     
@@ -147,7 +147,7 @@
   
 
   <url>
-    <loc>http://ayuisokay.com/</loc>
+    <loc>http://blog.ayuisokay.com/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -155,28 +155,28 @@
 
   
   <url>
-    <loc>http://ayuisokay.com/tags/Java/</loc>
+    <loc>http://blog.ayuisokay.com/tags/Java/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/tags/JVM/</loc>
+    <loc>http://blog.ayuisokay.com/tags/JUC/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/tags/JUC/</loc>
+    <loc>http://blog.ayuisokay.com/tags/JVM/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/tags/Hexo/</loc>
+    <loc>http://blog.ayuisokay.com/tags/Hexo/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -185,14 +185,14 @@
 
   
   <url>
-    <loc>http://ayuisokay.com/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>http://blog.ayuisokay.com/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ayuisokay.com/categories/%E6%9C%89%E8%B6%A3/</loc>
+    <loc>http://blog.ayuisokay.com/categories/%E6%9C%89%E8%B6%A3/</loc>
     <lastmod>2024-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
