@@ -16,11 +16,11 @@ function _unsupportedIterableToArray(e, r) {
         var t = Object.prototype.toString.call(e).slice(8, -1);
         return (
             "Object" === t && e.constructor && (t = e.constructor.name),
-                "Map" === t || "Set" === t
-                    ? Array.from(e)
-                    : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
-                        ? _arrayLikeToArray(e, r)
-                        : void 0
+            "Map" === t || "Set" === t
+                ? Array.from(e)
+                : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
+                    ? _arrayLikeToArray(e, r)
+                    : void 0
         );
     }
 }
@@ -48,7 +48,7 @@ function _defineProperties(e, r) {
         var a = r[t];
         (a.enumerable = a.enumerable || !1),
             (a.configurable = !0),
-        "value" in a && (a.writable = !0),
+            "value" in a && (a.writable = !0),
             Object.defineProperty(e, a.key, a);
     }
 }
@@ -58,10 +58,10 @@ function _createClass(e, r, t) {
 }
 
 var peopleConfig = {
-        src: GLOBAL_CONFIG.peoplecanvas.img,
-        rows: 15,
-        cols: 7,
-    },
+    src: GLOBAL_CONFIG.peoplecanvas.img,
+    rows: 15,
+    cols: 7,
+},
     randomRange = function (e, r) {
         return e + Math.random() * (r - e);
     },
@@ -90,13 +90,13 @@ var peopleConfig = {
             s = a.height - n.height + i;
         return (
             1 == o ? ((r = -n.width), (t = a.width), (n.scaleX = 1)) : ((r = a.width + n.width), (t = 0), (n.scaleX = -1)),
-                (n.x = r),
-                (n.y = s),
-                {
-                    startX: r,
-                    startY: (n.anchorY = s),
-                    endX: t,
-                }
+            (n.x = r),
+            (n.y = s),
+            {
+                startX: r,
+                startY: (n.anchorY = s),
+                endX: t,
+            }
         );
     },
     normalWalk = function (e) {
@@ -107,26 +107,26 @@ var peopleConfig = {
             o = gsap.timeline();
         return (
             o.timeScale(randomRange(0.5, 1.5)),
-                o.to(
-                    r,
-                    {
-                        duration: 10,
-                        x: n,
-                        ease: "none",
-                    },
-                    0
-                ),
-                o.to(
-                    r,
-                    {
-                        duration: 0.25,
-                        repeat: 40,
-                        yoyo: !0,
-                        y: a - 10,
-                    },
-                    0
-                ),
-                o
+            o.to(
+                r,
+                {
+                    duration: 10,
+                    x: n,
+                    ease: "none",
+                },
+                0
+            ),
+            o.to(
+                r,
+                {
+                    duration: 0.25,
+                    repeat: 40,
+                    yoyo: !0,
+                    y: a - 10,
+                },
+                0
+            ),
+            o
         );
     },
     walks = [normalWalk],
@@ -166,7 +166,7 @@ var peopleConfig = {
                     },
                 },
             ]),
-                a
+            a
         );
     })(),
     img = document.createElement("img");
@@ -202,11 +202,11 @@ document.addEventListener("pjax:success", e => {
 function createPeeps() {
     for (
         var e = peopleConfig.rows,
-            r = peopleConfig.cols,
-            t = e * r,
-            a = img.naturalWidth / e,
-            n = img.naturalHeight / r,
-            o = 0;
+        r = peopleConfig.cols,
+        t = e * r,
+        a = img.naturalWidth / e,
+        n = img.naturalHeight / r,
+        o = 0;
         o < t;
         o++
     )
@@ -251,11 +251,11 @@ function addPeepToCrowd() {
         });
     return (
         (e.walk = r),
-            crowd.push(e),
-            crowd.sort(function (e, r) {
-                return e.anchorY - r.anchorY;
-            }),
-            e
+        crowd.push(e),
+        crowd.sort(function (e, r) {
+            return e.anchorY - r.anchorY;
+        }),
+        e
     );
 }
 
