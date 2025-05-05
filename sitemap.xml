@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.ayuisokay.com/2024/03/26/%E4%BD%BF%E7%94%A8Memos%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E2%80%98%E5%93%94%E5%93%94%E7%A9%BA%E9%97%B4%E2%80%99/</loc>
+    <loc>http://blog.ayuisokay.com/memos/index.html</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://blog.ayuisokay.com/memos/index.html</loc>
+    <loc>http://blog.ayuisokay.com/2024/03/26/%E4%BD%BF%E7%94%A8Memos%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E2%80%98%E5%93%94%E5%93%94%E7%A9%BA%E9%97%B4%E2%80%99/</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -219,14 +219,14 @@
 
   
   <url>
-    <loc>http://blog.ayuisokay.com/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>http://blog.ayuisokay.com/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.ayuisokay.com/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>http://blog.ayuisokay.com/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
