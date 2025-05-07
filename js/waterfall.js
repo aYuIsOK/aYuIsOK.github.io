@@ -1,25 +1,25 @@
 /*!
    --------------------------------
-   Waterfall.js
+   waterfall1.js
    --------------------------------
-   + https://github.com/raphamorim/waterfall
+   + https://github.com/raphamorim/waterfall1
    + version 1.1.0
    + Copyright 2016 Raphael Amorim & Israel Teixeira
    + Licensed under the MIT license
-   + Documentation: https://github.com/raphamorim/waterfall
+   + Documentation: https://github.com/raphamorim/waterfall1
 */
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define('waterfall', function () {
+    define('waterfall1', function () {
       return factory
     })
   } else if (typeof module === 'object' && module.exports) {
     module.exports = factory
   } else {
-    root.waterfall = factory
+    root.waterfall1 = factory
   }
-}(this, function waterfall (container) {
+}(this, function waterfall1 (container) {
   if (typeof (container) === 'string') {
     container = document.querySelector(container)
   }
@@ -85,7 +85,9 @@
   }
 
   function thereIsSpace (els, i) {
-    return right(els[i - 1]) + width(els[i]) <= width(container)
+    var currentMarginLeft = margin('Left', els[i]);
+    var currentMarginRight = margin('Right', els[i]);
+    return right(els[i - 1]) + currentMarginLeft + width(els[i]) + currentMarginRight <= width(container);
   }
 
   var els = container.children
